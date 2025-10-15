@@ -1,3 +1,5 @@
+// Code for printing a TRIANGLE (3 vertices figure)
+
 #include<iostream>
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
@@ -152,4 +154,5 @@ int main() {
 	// Terminate GLFW before ending the program
 	glfwTerminate();
 	return 0;
+
 }
